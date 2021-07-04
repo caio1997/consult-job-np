@@ -8,7 +8,7 @@ import javax.persistence.Id
 
 
 @Entity
-class Job(var vaga: String, var cargo: String, var empresa: String, var cidade: String, var estado: String) {
+class Job(var vaga: String?, var cargo: String?, var empresa: String?, var cidade: String?, var estado: String?) {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

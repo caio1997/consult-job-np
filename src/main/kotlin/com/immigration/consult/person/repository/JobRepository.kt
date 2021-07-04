@@ -1,7 +1,7 @@
 package com.immigration.consult.person.repository
 
 import com.immigration.consult.person.entity.Job
-import org.springframework.data.repository.CrudRepository
+import org.springframework.data.jpa.repository.JpaRepository
 
-interface JobRepository : CrudRepository<Job, Long> {
+interface JobRepository : JpaRepository<Job, Long> {
 }
